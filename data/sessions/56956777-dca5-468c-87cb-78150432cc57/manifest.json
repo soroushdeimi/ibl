@@ -1,0 +1,47 @@
+{
+ "eid": "56956777-dca5-468c-87cb-78150432cc57",
+ "schema_version": 2,
+ "subject": "NYU-11",
+ "lab": "angelakilab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.2.5",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CA1",
+  "LGd"
+ ],
+ "status": "complete",
+ "issues": [],
+ "n_trials": 423,
+ "n_trials_biased_block": 333,
+ "insertions": [
+  {
+   "pid": "6be21156-33b0-4f70-9a0f-65b3e3cd6d4a",
+   "probe": "probe00",
+   "target_regions": [
+    "CA1",
+    "LGd"
+   ],
+   "n_clusters_total": 628,
+   "n_clusters_qc_pass_in_target": 43,
+   "status": "ok",
+   "n_spikes": 17100006,
+   "cache_pruned_bytes": 205200328
+  }
+ ],
+ "n_clusters": 43,
+ "counts_shape": [
+  423,
+  43
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 28.6
+}

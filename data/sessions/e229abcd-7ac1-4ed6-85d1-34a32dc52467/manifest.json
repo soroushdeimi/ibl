@@ -1,0 +1,50 @@
+{
+ "eid": "e229abcd-7ac1-4ed6-85d1-34a32dc52467",
+ "schema_version": 2,
+ "subject": "NYU-28",
+ "lab": "angelakilab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CP",
+  "MOs"
+ ],
+ "status": "complete",
+ "issues": [
+  "covariate whisker_me: missing (no ROIMotionEnergy dataset)",
+  "covariate pupil: missing (no camera features dataset)"
+ ],
+ "n_trials": 1059,
+ "n_trials_biased_block": 969,
+ "insertions": [
+  {
+   "pid": "f7e2696b-832a-42fb-a80d-3af4af07789c",
+   "probe": "probe01",
+   "target_regions": [
+    "CP",
+    "MOs"
+   ],
+   "n_clusters_total": 350,
+   "n_clusters_qc_pass_in_target": 112,
+   "status": "ok",
+   "n_spikes": 6493162,
+   "cache_pruned_bytes": 77918200
+  }
+ ],
+ "n_clusters": 112,
+ "counts_shape": [
+  1059,
+  112
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "missing (no ROIMotionEnergy dataset)",
+  "pupil": "missing (no camera features dataset)"
+ },
+ "elapsed_s": 20.1
+}

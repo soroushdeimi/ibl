@@ -1,0 +1,57 @@
+{
+ "eid": "022dd14c-eff2-470f-863c-e019fafa53ae",
+ "schema_version": 2,
+ "subject": "CSHL068",
+ "lab": "churchlandlab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "ACAd",
+  "MOs"
+ ],
+ "status": "complete",
+ "issues": [
+  "57edc590-a53d-403c-9aab-d58ee51b6a24: 57edc590-a53d-403c-9aab-d58ee51b6a24: could not load cluster/channel data ('clusters')"
+ ],
+ "n_trials": 409,
+ "n_trials_biased_block": 319,
+ "insertions": [
+  {
+   "pid": "57edc590-a53d-403c-9aab-d58ee51b6a24",
+   "probe": "probe01",
+   "target_regions": [
+    "ACAd"
+   ],
+   "status": "skipped: 57edc590-a53d-403c-9aab-d58ee51b6a24: could not load cluster/channel data ('clusters')"
+  },
+  {
+   "pid": "9341b8f3-fa57-4fbb-9d0b-7ca3613da0cc",
+   "probe": "probe00",
+   "target_regions": [
+    "ACAd",
+    "MOs"
+   ],
+   "n_clusters_total": 1166,
+   "n_clusters_qc_pass_in_target": 23,
+   "status": "ok",
+   "n_spikes": 53368069,
+   "cache_pruned_bytes": 533680946
+  }
+ ],
+ "n_clusters": 23,
+ "counts_shape": [
+  409,
+  23
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 55.8
+}

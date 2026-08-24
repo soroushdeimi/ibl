@@ -1,0 +1,57 @@
+{
+ "eid": "c467ea8f-a3ea-47d0-ba9a-f4aa0305dedf",
+ "schema_version": 2,
+ "subject": "FMR025",
+ "lab": "angelakilab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CA1",
+  "VISp"
+ ],
+ "status": "complete",
+ "issues": [
+  "97331bd9-1263-445a-a918-d11f33d68b9e: 97331bd9-1263-445a-a918-d11f33d68b9e: QC label length 365 != cluster count 367",
+  "covariate pupil: missing (no camera features dataset)"
+ ],
+ "n_trials": 622,
+ "n_trials_biased_block": 532,
+ "insertions": [
+  {
+   "pid": "764a75ed-2c71-4644-8842-b5b796473972",
+   "probe": "probe01",
+   "target_regions": [
+    "VISp"
+   ],
+   "n_clusters_total": 773,
+   "n_clusters_qc_pass_in_target": 6,
+   "status": "ok",
+   "n_spikes": 7892970,
+   "cache_pruned_bytes": 94715896
+  },
+  {
+   "pid": "97331bd9-1263-445a-a918-d11f33d68b9e",
+   "probe": "probe00",
+   "target_regions": [
+    "CA1"
+   ],
+   "status": "skipped: 97331bd9-1263-445a-a918-d11f33d68b9e: QC label length 365 != cluster count 367"
+  }
+ ],
+ "n_clusters": 6,
+ "counts_shape": [
+  622,
+  6
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "missing (no camera features dataset)"
+ },
+ "elapsed_s": 22.9
+}

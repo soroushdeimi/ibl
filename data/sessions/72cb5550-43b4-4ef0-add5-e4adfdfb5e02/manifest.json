@@ -1,0 +1,46 @@
+{
+ "eid": "72cb5550-43b4-4ef0-add5-e4adfdfb5e02",
+ "schema_version": 2,
+ "subject": "ZFM-02369",
+ "lab": "mainenlab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CA1"
+ ],
+ "status": "complete_no_units",
+ "issues": [
+  "f4bd76a6-66c9-41f3-9311-6962315f8fc8: 0 QC-passing clusters in ['CA1'] (of 618 sorted)",
+  "no usable clusters in any target region for this session"
+ ],
+ "n_trials": 726,
+ "n_trials_biased_block": 636,
+ "insertions": [
+  {
+   "pid": "f4bd76a6-66c9-41f3-9311-6962315f8fc8",
+   "probe": "probe00",
+   "target_regions": [
+    "CA1"
+   ],
+   "n_clusters_total": 618,
+   "n_clusters_qc_pass_in_target": 0,
+   "status": "no QC-passing clusters in target region"
+  }
+ ],
+ "n_clusters": 0,
+ "counts_shape": [
+  726,
+  0
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 13.0
+}

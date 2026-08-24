@@ -1,0 +1,58 @@
+{
+ "eid": "b9055d59-8c6c-42b8-b261-19bd3cb8c426",
+ "schema_version": 2,
+ "subject": "NYU-44",
+ "lab": "angelakilab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CA1",
+  "VISp"
+ ],
+ "status": "complete",
+ "issues": [
+  "a1b7e254-b5b8-4f63-895b-52a45eb61b02: 0 QC-passing clusters in ['VISp'] (of 218 sorted)"
+ ],
+ "n_trials": 516,
+ "n_trials_biased_block": 426,
+ "insertions": [
+  {
+   "pid": "4e5e159e-ff10-46ae-a007-75c100033900",
+   "probe": "probe00",
+   "target_regions": [
+    "CA1"
+   ],
+   "n_clusters_total": 153,
+   "n_clusters_qc_pass_in_target": 5,
+   "status": "ok",
+   "n_spikes": 6652852,
+   "cache_pruned_bytes": 79834480
+  },
+  {
+   "pid": "a1b7e254-b5b8-4f63-895b-52a45eb61b02",
+   "probe": "probe01",
+   "target_regions": [
+    "VISp"
+   ],
+   "n_clusters_total": 218,
+   "n_clusters_qc_pass_in_target": 0,
+   "status": "no QC-passing clusters in target region"
+  }
+ ],
+ "n_clusters": 5,
+ "counts_shape": [
+  516,
+  5
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 19.0
+}

@@ -1,0 +1,60 @@
+{
+ "eid": "eb396dfd-1dc9-41a7-8ad9-fdb2ecfb6c73",
+ "schema_version": 2,
+ "subject": "CSP011",
+ "lab": "angelakilab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.1",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "ACAd",
+  "LGd",
+  "MOs"
+ ],
+ "status": "complete",
+ "issues": [
+  "dcf639ff-d19f-436b-98ee-a505f842f5a0: 0 QC-passing clusters in ['LGd'] (of 629 sorted)"
+ ],
+ "n_trials": 637,
+ "n_trials_biased_block": 550,
+ "insertions": [
+  {
+   "pid": "af9f2db1-f850-4e07-88a8-0b5d85623517",
+   "probe": "probe01",
+   "target_regions": [
+    "ACAd",
+    "MOs"
+   ],
+   "n_clusters_total": 473,
+   "n_clusters_qc_pass_in_target": 6,
+   "status": "ok",
+   "n_spikes": 7963067,
+   "cache_pruned_bytes": 95557060
+  },
+  {
+   "pid": "dcf639ff-d19f-436b-98ee-a505f842f5a0",
+   "probe": "probe00",
+   "target_regions": [
+    "LGd"
+   ],
+   "n_clusters_total": 629,
+   "n_clusters_qc_pass_in_target": 0,
+   "status": "no QC-passing clusters in target region"
+  }
+ ],
+ "n_clusters": 6,
+ "counts_shape": [
+  637,
+  6
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 28.9
+}

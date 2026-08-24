@@ -1,0 +1,60 @@
+{
+ "eid": "a372fd6a-1964-403a-b160-6498e0eccd16",
+ "schema_version": 2,
+ "subject": "NYU-44",
+ "lab": "angelakilab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "ACAd",
+  "MOs",
+  "VISp"
+ ],
+ "status": "complete",
+ "issues": [],
+ "n_trials": 802,
+ "n_trials_biased_block": 712,
+ "insertions": [
+  {
+   "pid": "6e7d1da6-8040-4e21-bf8e-1844aac972be",
+   "probe": "probe01",
+   "target_regions": [
+    "ACAd",
+    "MOs"
+   ],
+   "n_clusters_total": 250,
+   "n_clusters_qc_pass_in_target": 4,
+   "status": "ok",
+   "n_spikes": 6572471,
+   "cache_pruned_bytes": 78869908
+  },
+  {
+   "pid": "f97d26c5-1c88-47ba-a933-2f3bb52ccd42",
+   "probe": "probe00",
+   "target_regions": [
+    "VISp"
+   ],
+   "n_clusters_total": 247,
+   "n_clusters_qc_pass_in_target": 4,
+   "status": "ok",
+   "n_spikes": 6908164,
+   "cache_pruned_bytes": 82898224
+  }
+ ],
+ "n_clusters": 8,
+ "counts_shape": [
+  802,
+  8
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 37.8
+}

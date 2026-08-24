@@ -1,0 +1,60 @@
+{
+ "eid": "d25dcbfa-501a-4037-bb5d-0726c17f429d",
+ "schema_version": 2,
+ "subject": "FMR020",
+ "lab": "angelakilab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "ACAd",
+  "CA1",
+  "MOs"
+ ],
+ "status": "complete",
+ "issues": [
+  "2ca11e08-6a50-46d6-b9dd-72d604d5ce74: 0 QC-passing clusters in ['CA1'] (of 375 sorted)"
+ ],
+ "n_trials": 752,
+ "n_trials_biased_block": 662,
+ "insertions": [
+  {
+   "pid": "2ca11e08-6a50-46d6-b9dd-72d604d5ce74",
+   "probe": "probe01",
+   "target_regions": [
+    "CA1"
+   ],
+   "n_clusters_total": 375,
+   "n_clusters_qc_pass_in_target": 0,
+   "status": "no QC-passing clusters in target region"
+  },
+  {
+   "pid": "84c48d67-3d58-4cb6-8e57-fd206e6508d6",
+   "probe": "probe00",
+   "target_regions": [
+    "ACAd",
+    "MOs"
+   ],
+   "n_clusters_total": 521,
+   "n_clusters_qc_pass_in_target": 64,
+   "status": "ok",
+   "n_spikes": 9159193,
+   "cache_pruned_bytes": 109910572
+  }
+ ],
+ "n_clusters": 64,
+ "counts_shape": [
+  752,
+  64
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 30.2
+}

@@ -1,0 +1,48 @@
+{
+ "eid": "ac7d3064-7f09-48a3-88d2-e86a4eb86461",
+ "schema_version": 2,
+ "subject": "KS052",
+ "lab": "cortexlab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "MOs"
+ ],
+ "status": "complete",
+ "issues": [
+  "covariate whisker_me: missing (ALFObjectNotFound: leftCamera \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "covariate pupil: missing (ALFObjectNotFound: leftCamera \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )"
+ ],
+ "n_trials": 691,
+ "n_trials_biased_block": 601,
+ "insertions": [
+  {
+   "pid": "2c401cbd-b95c-4ebe-8a83-92b55ab49542",
+   "probe": "probe01",
+   "target_regions": [
+    "MOs"
+   ],
+   "n_clusters_total": 384,
+   "n_clusters_qc_pass_in_target": 14,
+   "status": "ok",
+   "n_spikes": 20386695,
+   "cache_pruned_bytes": 244640596
+  }
+ ],
+ "n_clusters": 14,
+ "counts_shape": [
+  691,
+  14
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "missing (ALFObjectNotFound: leftCamera \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "pupil": "missing (ALFObjectNotFound: leftCamera \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )"
+ },
+ "elapsed_s": 20.1
+}

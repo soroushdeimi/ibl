@@ -1,0 +1,63 @@
+{
+ "eid": "93374502-c701-4b83-aa1a-23050b514708",
+ "schema_version": 2,
+ "subject": "CSHL061",
+ "lab": "churchlandlab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.0",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CP",
+  "MOs"
+ ],
+ "status": "complete",
+ "issues": [
+  "covariate whisker_me: missing (ALFObjectNotFound: leftCamera \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "covariate pupil: missing (ALFObjectNotFound: leftCamera \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )"
+ ],
+ "n_trials": 757,
+ "n_trials_biased_block": 667,
+ "insertions": [
+  {
+   "pid": "58153f9d-08b5-4386-b1ad-715c3922a470",
+   "probe": "probe00",
+   "target_regions": [
+    "CP",
+    "MOs"
+   ],
+   "n_clusters_total": 872,
+   "n_clusters_qc_pass_in_target": 11,
+   "status": "ok",
+   "n_spikes": 61510622,
+   "cache_pruned_bytes": 615106476
+  },
+  {
+   "pid": "7d5c4c4e-5c23-4a1d-a1ce-32cb79bbcc2a",
+   "probe": "probe01",
+   "target_regions": [
+    "CP",
+    "MOs"
+   ],
+   "n_clusters_total": 480,
+   "n_clusters_qc_pass_in_target": 20,
+   "status": "ok",
+   "n_spikes": 16610977,
+   "cache_pruned_bytes": 166110026
+  }
+ ],
+ "n_clusters": 31,
+ "counts_shape": [
+  757,
+  31
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "missing (ALFObjectNotFound: leftCamera \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "pupil": "missing (ALFObjectNotFound: leftCamera \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )"
+ },
+ "elapsed_s": 58.4
+}

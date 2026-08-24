@@ -1,0 +1,64 @@
+{
+ "eid": "83769b74-6e3b-422a-8648-50c1a32c5dd4",
+ "schema_version": 2,
+ "subject": "CSP016",
+ "lab": "angelakilab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CA1",
+  "CP",
+  "LGd",
+  "MOs"
+ ],
+ "status": "complete",
+ "issues": [
+  "covariate pupil: missing (no camera features dataset)"
+ ],
+ "n_trials": 433,
+ "n_trials_biased_block": 343,
+ "insertions": [
+  {
+   "pid": "ae0e3732-0688-4b91-bbf8-061c0eb2f49f",
+   "probe": "probe01",
+   "target_regions": [
+    "CP",
+    "MOs"
+   ],
+   "n_clusters_total": 319,
+   "n_clusters_qc_pass_in_target": 115,
+   "status": "ok",
+   "n_spikes": 14676735,
+   "cache_pruned_bytes": 176121076
+  },
+  {
+   "pid": "f26f1b6a-066d-4109-94bc-5d8d78323e8d",
+   "probe": "probe00",
+   "target_regions": [
+    "CA1",
+    "LGd"
+   ],
+   "n_clusters_total": 164,
+   "n_clusters_qc_pass_in_target": 15,
+   "status": "ok",
+   "n_spikes": 5466807,
+   "cache_pruned_bytes": 65601940
+  }
+ ],
+ "n_clusters": 130,
+ "counts_shape": [
+  433,
+  130
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "missing (no camera features dataset)"
+ },
+ "elapsed_s": 36.9
+}

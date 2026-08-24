@@ -1,0 +1,49 @@
+{
+ "eid": "6899a67d-2e53-4215-a52a-c7021b5da5d4",
+ "schema_version": 2,
+ "subject": "MFD_06",
+ "lab": "churchlandlab_ucla",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CA1",
+  "LGd",
+  "VISp"
+ ],
+ "status": "complete",
+ "issues": [],
+ "n_trials": 381,
+ "n_trials_biased_block": 291,
+ "insertions": [
+  {
+   "pid": "730770d6-617a-4ada-95db-a48521befda5",
+   "probe": "probe00",
+   "target_regions": [
+    "CA1",
+    "LGd",
+    "VISp"
+   ],
+   "n_clusters_total": 651,
+   "n_clusters_qc_pass_in_target": 24,
+   "status": "ok",
+   "n_spikes": 12950627,
+   "cache_pruned_bytes": 207210288
+  }
+ ],
+ "n_clusters": 24,
+ "counts_shape": [
+  381,
+  24
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 14.4
+}

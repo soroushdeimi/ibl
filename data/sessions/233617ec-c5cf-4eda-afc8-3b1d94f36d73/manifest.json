@@ -1,0 +1,48 @@
+{
+ "eid": "233617ec-c5cf-4eda-afc8-3b1d94f36d73",
+ "schema_version": 2,
+ "subject": "PL030",
+ "lab": "hausserlab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CA1",
+  "LGd"
+ ],
+ "status": "complete_no_units",
+ "issues": [
+  "5bfcf68f-4e0b-46f8-a9e3-8e919d5ddd1c: 0 QC-passing clusters in ['CA1', 'LGd'] (of 515 sorted)",
+  "no usable clusters in any target region for this session"
+ ],
+ "n_trials": 438,
+ "n_trials_biased_block": 352,
+ "insertions": [
+  {
+   "pid": "5bfcf68f-4e0b-46f8-a9e3-8e919d5ddd1c",
+   "probe": "probe00",
+   "target_regions": [
+    "CA1",
+    "LGd"
+   ],
+   "n_clusters_total": 515,
+   "n_clusters_qc_pass_in_target": 0,
+   "status": "no QC-passing clusters in target region"
+  }
+ ],
+ "n_clusters": 0,
+ "counts_shape": [
+  438,
+  0
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 12.1
+}

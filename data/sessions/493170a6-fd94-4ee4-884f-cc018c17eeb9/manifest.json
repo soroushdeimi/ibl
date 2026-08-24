@@ -1,0 +1,58 @@
+{
+ "eid": "493170a6-fd94-4ee4-884f-cc018c17eeb9",
+ "schema_version": 2,
+ "subject": "SWC_061",
+ "lab": "hoferlab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CP",
+  "MOs"
+ ],
+ "status": "complete",
+ "issues": [],
+ "n_trials": 685,
+ "n_trials_biased_block": 595,
+ "insertions": [
+  {
+   "pid": "31d8dfb1-71fd-4c53-9229-7cd48bee07e4",
+   "probe": "probe01",
+   "target_regions": [
+    "MOs"
+   ],
+   "n_clusters_total": 839,
+   "n_clusters_qc_pass_in_target": 4,
+   "status": "ok",
+   "n_spikes": 36417794,
+   "cache_pruned_bytes": 437013784
+  },
+  {
+   "pid": "68f5f1e4-5e88-4aa5-8a1a-94b691adb11e",
+   "probe": "probe00",
+   "target_regions": [
+    "CP"
+   ],
+   "n_clusters_total": 524,
+   "n_clusters_qc_pass_in_target": 68,
+   "status": "ok",
+   "n_spikes": 19027722,
+   "cache_pruned_bytes": 228332920
+  }
+ ],
+ "n_clusters": 72,
+ "counts_shape": [
+  685,
+  72
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 61.3
+}

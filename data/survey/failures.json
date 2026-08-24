@@ -1,0 +1,50 @@
+{
+ "excluded_insertions_by_reason": {
+  "non-standard task variant (bandit)": 117,
+  "non-standard task variant (opto)": 104,
+  "non-standard task variant (passive)": 5
+ },
+ "cluster_load_failures": {
+  "f8d0ecdc-b7bd-44cc-b887-3d544e24e561": "SpikeExtractionError: f8d0ecdc-b7bd-44cc-b887-3d544e24e561: could not load cluster/channel data ('clusters')",
+  "341ef9bb-25f9-4eeb-8f1d-bdd054b22ba8": "SpikeExtractionError: 341ef9bb-25f9-4eeb-8f1d-bdd054b22ba8: could not load cluster/channel data ('clusters')",
+  "ee2ce090-696a-40f5-8f29-7107339bf08e": "SpikeExtractionError: ee2ce090-696a-40f5-8f29-7107339bf08e: could not load cluster/channel data ('clusters')",
+  "94af9073-0914-4323-a90a-5eea1ef5f92c": "SpikeExtractionError: 94af9073-0914-4323-a90a-5eea1ef5f92c: could not load cluster/channel data ('clusters')",
+  "57edc590-a53d-403c-9aab-d58ee51b6a24": "SpikeExtractionError: 57edc590-a53d-403c-9aab-d58ee51b6a24: could not load cluster/channel data ('clusters')",
+  "4e123ebc-322c-474b-87e4-99b08fd28a9a": "SpikeExtractionError: 4e123ebc-322c-474b-87e4-99b08fd28a9a: QC label length 414 != cluster count 315",
+  "4217c7c0-9357-4818-995c-2213d8854741": "SpikeExtractionError: 4217c7c0-9357-4818-995c-2213d8854741: QC label length 546 != cluster count 508",
+  "5bbdbe0f-00e5-4553-a690-7edc3712696c": "SpikeExtractionError: 5bbdbe0f-00e5-4553-a690-7edc3712696c: QC label length 330 != cluster count 348",
+  "d7361c6f-6751-4b5f-91c2-fdd61f988aa4": "SpikeExtractionError: d7361c6f-6751-4b5f-91c2-fdd61f988aa4: could not load cluster/channel data ('clusters')",
+  "ef3d059a-59d5-4870-b355-563a8d7cfd2d": "SpikeExtractionError: ef3d059a-59d5-4870-b355-563a8d7cfd2d: could not load cluster/channel data ('clusters')",
+  "8f1d5aad-8c1f-4e81-869a-5a1ab1bf53b2": "SpikeExtractionError: 8f1d5aad-8c1f-4e81-869a-5a1ab1bf53b2: could not load cluster/channel data ('clusters')",
+  "44fc10b1-ec82-4f88-afbf-10a6f8a1b5d8": "SpikeExtractionError: 44fc10b1-ec82-4f88-afbf-10a6f8a1b5d8: could not load cluster/channel data ('clusters')",
+  "f06d6cd9-a6b8-49a4-90d1-7905d04c2f8b": "SpikeExtractionError: f06d6cd9-a6b8-49a4-90d1-7905d04c2f8b: could not load cluster/channel data ('clusters')",
+  "b53cc868-008a-4d20-a33a-ea3101be2d34": "SpikeExtractionError: b53cc868-008a-4d20-a33a-ea3101be2d34: could not load cluster/channel data ('clusters')",
+  "daadb3f1-bef2-474e-a659-72922f3fcc5b": "SpikeExtractionError: daadb3f1-bef2-474e-a659-72922f3fcc5b: could not load cluster/channel data ('clusters')",
+  "8185f1e9-cfe0-4fd6-8d7e-446a8051c588": "SpikeExtractionError: 8185f1e9-cfe0-4fd6-8d7e-446a8051c588: could not load cluster/channel data ('clusters')",
+  "61bb2bcd-37b4-4bcc-8f40-8681009a511a": "SpikeExtractionError: 61bb2bcd-37b4-4bcc-8f40-8681009a511a: could not load cluster/channel data ('clusters')",
+  "b9705a37-870e-40bd-95c4-f36fa345e777": "SpikeExtractionError: b9705a37-870e-40bd-95c4-f36fa345e777: QC label length 469 != cluster count 496",
+  "ef03e569-2b50-4534-89f4-fb1e56e81461": "SpikeExtractionError: ef03e569-2b50-4534-89f4-fb1e56e81461: could not load cluster/channel data ('clusters')",
+  "8413c5c6-b42b-4ec6-b751-881a54413628": "SpikeExtractionError: 8413c5c6-b42b-4ec6-b751-881a54413628: could not load cluster/channel data ('clusters')",
+  "72f89097-4836-4b67-a47a-edb3285a6e83": "SpikeExtractionError: 72f89097-4836-4b67-a47a-edb3285a6e83: could not load cluster/channel data ('clusters')",
+  "f936a701-5f8a-4aa1-b7a9-9f8b5b69bc7c": "SpikeExtractionError: f936a701-5f8a-4aa1-b7a9-9f8b5b69bc7c: could not load cluster/channel data ('clusters')",
+  "3cf407d6-8a2e-45e3-a387-60676458bdc8": "SpikeExtractionError: 3cf407d6-8a2e-45e3-a387-60676458bdc8: QC label length 513 != cluster count 395",
+  "97331bd9-1263-445a-a918-d11f33d68b9e": "SpikeExtractionError: 97331bd9-1263-445a-a918-d11f33d68b9e: QC label length 365 != cluster count 367"
+ },
+ "trial_load_failures": {
+  "7b26ce84-07f9-43d1-957f-bc72aeb730a3": "TrialExtractionError: 7b26ce84-07f9-43d1-957f-bc72aeb730a3: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "1b20f589-6177-4e5c-9090-9a609a16944b": "TrialExtractionError: 1b20f589-6177-4e5c-9090-9a609a16944b: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "36dee8f1-a58f-4fca-bf10-9edd6baf07ef": "TrialExtractionError: 36dee8f1-a58f-4fca-bf10-9edd6baf07ef: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "7502ae93-7437-4bcd-9e14-d73b51193656": "TrialExtractionError: 7502ae93-7437-4bcd-9e14-d73b51193656: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "3555ce3a-ccce-4b7e-8eb1-c2571913599e": "TrialExtractionError: 3555ce3a-ccce-4b7e-8eb1-c2571913599e: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "4333b9f7-a4e7-4b83-a457-7122ae080034": "TrialExtractionError: 4333b9f7-a4e7-4b83-a457-7122ae080034: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "8a039e2b-637e-45ed-8da6-0641924626f0": "TrialExtractionError: 8a039e2b-637e-45ed-8da6-0641924626f0: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "de588204-8fd6-4ce3-92da-7a6d1dcae238": "TrialExtractionError: de588204-8fd6-4ce3-92da-7a6d1dcae238: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "a52f5a1b-7f45-4f2c-89a9-fb199d2a0d63": "TrialExtractionError: a52f5a1b-7f45-4f2c-89a9-fb199d2a0d63: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "e26c6001-defe-42a9-9ded-368e3f03ac61": "TrialExtractionError: e26c6001-defe-42a9-9ded-368e3f03ac61: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "064a7252-8e10-4ad6-b3fd-7a88a2db5463": "TrialExtractionError: 064a7252-8e10-4ad6-b3fd-7a88a2db5463: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "b01df337-2d31-4bcc-a1fe-7112afd50c50": "TrialExtractionError: b01df337-2d31-4bcc-a1fe-7112afd50c50: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "110de25e-4eed-4ec8-804a-b77d17635c3a": "TrialExtractionError: 110de25e-4eed-4ec8-804a-b77d17635c3a: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )",
+  "b9cc9f7b-f689-41d3-ab83-5ba5520e5dca": "TrialExtractionError: b9cc9f7b-f689-41d3-ab83-5ba5520e5dca: trials object could not be loaded (trials \n The ALF object was not found.  This may occur if the object or namespace or incorrectly formatted e.g. the object \"_ibl_trials.intervals.npy\" would be found with the filters `object=\"trials\", namespace=\"ibl\"` )"
+ },
+ "covariate_audit_failures": {}
+}

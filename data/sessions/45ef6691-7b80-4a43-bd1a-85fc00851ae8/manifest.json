@@ -1,0 +1,45 @@
+{
+ "eid": "45ef6691-7b80-4a43-bd1a-85fc00851ae8",
+ "schema_version": 2,
+ "subject": "SWC_052",
+ "lab": "mrsicflogellab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "VISp"
+ ],
+ "status": "complete",
+ "issues": [],
+ "n_trials": 645,
+ "n_trials_biased_block": 555,
+ "insertions": [
+  {
+   "pid": "578ca001-8cf5-4d30-b58f-1d574eaf808a",
+   "probe": "probe01",
+   "target_regions": [
+    "VISp"
+   ],
+   "n_clusters_total": 1155,
+   "n_clusters_qc_pass_in_target": 4,
+   "status": "ok",
+   "n_spikes": 29563292,
+   "cache_pruned_bytes": 354759760
+  }
+ ],
+ "n_clusters": 4,
+ "counts_shape": [
+  645,
+  4
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 40.8
+}

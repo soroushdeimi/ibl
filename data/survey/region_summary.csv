@@ -1,0 +1,9 @@
+region,description,level,insertions_found,insertions_pass_filter,insertions_with_good_units,n_sessions,n_subjects,n_clusters_in_region,n_clusters_qc_pass,clusters_per_insertion_median,clusters_per_insertion_min,clusters_per_insertion_max,trials_per_session_median,trials_per_session_min,trials_per_session_max,underpowered,power_flag
+LGd,lateral geniculate nucleus (dorsal),early sensory (thalamus),57,57,47,47,42,4819,908,12.0,1,70,556.0,236,1020,False,
+VISp,primary visual cortex,early sensory (cortex),152,152,102,97,70,13439,1396,8.5,1,63,604.0,27,1279,False,
+MOs,secondary motor cortex,motor preparation,164,164,128,117,78,23397,2778,14.5,1,81,641.0,27,1191,False,
+MOp,primary motor cortex,motor preparation,68,68,56,53,40,10749,1828,23.0,1,214,612.0,27,1120,False,
+ACAd,dorsal anterior cingulate,high-level associative,89,89,71,69,57,6459,1095,13.0,1,78,645.0,245,1191,False,
+ORBvl,ventrolateral orbitofrontal,high-level associative,15,15,13,13,11,4016,761,50.0,2,160,540.0,397,981,False,
+CP,caudoputamen (dorsal striatum),decision / action,128,128,113,107,76,30017,3771,23.0,1,113,578.0,114,1213,False,
+CA1,hippocampus CA1,latent state / context inference,337,337,278,247,164,32654,2886,7.0,1,83,609.5,56,1279,False,

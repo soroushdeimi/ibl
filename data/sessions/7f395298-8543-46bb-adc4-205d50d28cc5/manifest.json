@@ -1,0 +1,47 @@
+{
+ "eid": "7f395298-8543-46bb-adc4-205d50d28cc5",
+ "schema_version": 2,
+ "subject": "SH017",
+ "lab": "angelakilab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CA1"
+ ],
+ "status": "complete",
+ "issues": [
+  "covariate pupil: missing (no camera features dataset)"
+ ],
+ "n_trials": 493,
+ "n_trials_biased_block": 403,
+ "insertions": [
+  {
+   "pid": "fd46ea98-3532-4963-be1c-6787c4b99204",
+   "probe": "probe01",
+   "target_regions": [
+    "CA1"
+   ],
+   "n_clusters_total": 433,
+   "n_clusters_qc_pass_in_target": 27,
+   "status": "ok",
+   "n_spikes": 6333950,
+   "cache_pruned_bytes": 76007656
+  }
+ ],
+ "n_clusters": 27,
+ "counts_shape": [
+  493,
+  27
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "missing (no camera features dataset)"
+ },
+ "elapsed_s": 22.2
+}

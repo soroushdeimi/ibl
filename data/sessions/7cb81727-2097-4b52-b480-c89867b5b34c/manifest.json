@@ -1,0 +1,59 @@
+{
+ "eid": "7cb81727-2097-4b52-b480-c89867b5b34c",
+ "schema_version": 2,
+ "subject": "SWC_052",
+ "lab": "mrsicflogellab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CA1",
+  "VISp"
+ ],
+ "status": "complete",
+ "issues": [
+  "642a3373-6fee-4f2a-b8d6-38dd42ada763: 0 QC-passing clusters in ['CA1'] (of 599 sorted)"
+ ],
+ "n_trials": 658,
+ "n_trials_biased_block": 568,
+ "insertions": [
+  {
+   "pid": "4b93a168-0f3b-4124-88fa-a57046ca70e1",
+   "probe": "probe01",
+   "target_regions": [
+    "CA1",
+    "VISp"
+   ],
+   "n_clusters_total": 604,
+   "n_clusters_qc_pass_in_target": 8,
+   "status": "ok",
+   "n_spikes": 16985832,
+   "cache_pruned_bytes": 203830240
+  },
+  {
+   "pid": "642a3373-6fee-4f2a-b8d6-38dd42ada763",
+   "probe": "probe00",
+   "target_regions": [
+    "CA1"
+   ],
+   "n_clusters_total": 599,
+   "n_clusters_qc_pass_in_target": 0,
+   "status": "no QC-passing clusters in target region"
+  }
+ ],
+ "n_clusters": 8,
+ "counts_shape": [
+  658,
+  8
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 24.9
+}

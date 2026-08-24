@@ -1,0 +1,45 @@
+{
+ "eid": "446f4724-1690-49f9-819a-2bd8e2ea88ce",
+ "schema_version": 2,
+ "subject": "KS096",
+ "lab": "cortexlab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.5.3",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "CA1"
+ ],
+ "status": "complete",
+ "issues": [],
+ "n_trials": 701,
+ "n_trials_biased_block": 611,
+ "insertions": [
+  {
+   "pid": "be9a2119-a4d7-4e62-82a1-b1a6623ecc99",
+   "probe": "probe00",
+   "target_regions": [
+    "CA1"
+   ],
+   "n_clusters_total": 793,
+   "n_clusters_qc_pass_in_target": 39,
+   "status": "ok",
+   "n_spikes": 24929880,
+   "cache_pruned_bytes": 299158816
+  }
+ ],
+ "n_clusters": 39,
+ "counts_shape": [
+  701,
+  39
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 34.7
+}

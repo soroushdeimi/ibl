@@ -1,0 +1,46 @@
+{
+ "eid": "dc21e80d-97d7-44ca-a729-a8e3f9b14305",
+ "schema_version": 2,
+ "subject": "ibl_witten_26",
+ "lab": "wittenlab",
+ "task_protocol": "_iblrig_tasks_ephysChoiceWorld6.4.2",
+ "stage": "ephys",
+ "prestim_window_s": [
+  -0.6,
+  -0.1
+ ],
+ "qc_label_pass": 1.0,
+ "target_regions": [
+  "VISp"
+ ],
+ "status": "complete_no_units",
+ "issues": [
+  "176b4fe3-f570-4d9f-9e25-a5d218f75c8b: 0 QC-passing clusters in ['VISp'] (of 728 sorted)",
+  "no usable clusters in any target region for this session"
+ ],
+ "n_trials": 1106,
+ "n_trials_biased_block": 1016,
+ "insertions": [
+  {
+   "pid": "176b4fe3-f570-4d9f-9e25-a5d218f75c8b",
+   "probe": "probe00",
+   "target_regions": [
+    "VISp"
+   ],
+   "n_clusters_total": 728,
+   "n_clusters_qc_pass_in_target": 0,
+   "status": "no QC-passing clusters in target region"
+  }
+ ],
+ "n_clusters": 0,
+ "counts_shape": [
+  1106,
+  0
+ ],
+ "covariate_status": {
+  "wheel": "ok",
+  "whisker_me": "ok",
+  "pupil": "ok"
+ },
+ "elapsed_s": 15.8
+}
