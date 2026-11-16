@@ -5,17 +5,17 @@
 **Reference paper:** Findling, Hubert et al., *Brain-wide representations of prior information in mouse decision-making*, Nature (2025), doi:10.1038/s41586-025-09226-1  
 **Code:** `ibl_pipeline/`
 
-This document records what the pipeline does, what was changed in the last pass, and what the numbers say. It is written so a reader who has not seen the chat can follow the claim.
+This document records what the pipeline does, what was changed in the last pass, and what the numbers say. It is written so that a reader new to the project can follow the claim.
 
 ---
 
-## خلاصهٔ فارسی
+## Summary
 
-موش‌ها در تکلیف بلوکی IBL هم prior بلوک و هم تاریخچهٔ انتخاب/پاداش را در انتخاب دخالت می‌دهند (Stage 1، دقت hold-out حدود ۸۳٪). فعالیت پیش‌تحریک در CP / MOp / MOs / ORBvl روی counts خام، prior بیزی را بهتر از null شبه‌جلسه decode می‌کند؛ اما بعد از برداشتن تاریخچهٔ رفتار (`residuals`) این سیگنال در **همهٔ** ناحیه‌ها صفر می‌شود. یک decoder فقط-رفتاری (`confounds`) از هر decoder نورونی قوی‌تر است.
+Mice in the IBL block task use both the block prior and their recent choice/reward history when they choose (Stage 1, held-out accuracy about 83%). Pre-stimulus activity in CP / MOp / MOs / ORBvl, on raw counts, decodes the Bayes-optimal prior better than the pseudosession null; but after behavioural history is removed (`residuals`) the signal drops to zero in **all** regions. A behaviour-only decoder (`confounds`) is stronger than any neural decoder.
 
-دو اصلاح این دور: (۱) باگ `and` در `n_test_sessions` — روی اعداد Stage 1 اثری نداشت؛ (۲) پنجره از −۴۰۰…۰ به −۶۰۰…−۱۰۰ میلی‌ثانیهٔ Findling. ۸۴ جلسه دوباره extract شد و `prior_decode` دوباره اجرا شد. داستان علمی عوض نشد. `reversal` بعد از تغییر پنجره دوباره اجرا نشده است.
+Two fixes in this pass: (1) the `and` bug in `n_test_sessions`, which did not affect any Stage 1 number; (2) the window was changed from −400…0 ms to Findling's −600…−100 ms. 84 sessions were re-extracted and `prior_decode` was re-run. The scientific story did not change. `reversal` has not been re-run after the window change.
 
-ادعای مجاز: در این هشت ناحیه، با این پنجره و decoder خطی، prior جدا از تاریخچهٔ عمل پیدا نشد. ادعای غیرمجاز: «نتیجهٔ Findling مصنوعی است» — آن‌ها ۲۴۲ ناحیه را با ۱۰۰۰ شبه‌جلسه سنجیده‌اند و وابستگی به عمل را جدا گزارش کرده‌اند، نه داخل آزمون معناداری.
+Supported claim: in these eight regions, with this window and a linear decoder, no prior signal separable from action history was found. Unsupported claim: "the Findling result is an artefact". They tested 242 regions with 1,000 pseudosessions and report the dependence on past actions as a separate analysis, not inside the significance test.
 
 ---
 

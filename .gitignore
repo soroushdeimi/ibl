@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+docs/latex/*.aux
+docs/latex/*.log
+docs/latex/*.out
+.venv/
